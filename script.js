@@ -164,7 +164,7 @@ function themePreference(theme){
     if (theme === "light") {
       const link = document.createElement("link");
       link.rel = "stylesheet";
-      link.href = "/UtilityFiles/themepreferrence.css";
+      link.href = "./UtilityFiles/themepreferrence.css";
       link.id="theme-link";
       document.head.appendChild(link);
       modeType.textContent = "Light Mode";
