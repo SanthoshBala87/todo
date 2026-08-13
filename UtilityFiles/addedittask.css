@@ -1,0 +1,118 @@
+.add-Task-Container,.edit-Task-Container{
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 7;
+    display: none;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+
+.form-group label{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+#add-task-title,#add-task-description,#add-task-priority,#add-task-category,#add-Task-button,#edit-task-title,#edit-task-description,#edit-task-priority,#edit-task-category,#edit-task-btn{
+    outline: none;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+
+#add-task-description,#edit-task-description{
+    resize: none;
+    field-sizing: content;
+}
+
+.error{
+    color: red;
+    font-size: .8rem;
+    margin: 4px 0;
+}
+
+.add-title-error,.add-description-error,.add-priority-error,.add-category-error,.edit-title-error,.edit-description-error,.edit-priority-error,.edit-category-error{
+    display: none;
+}
+
+.add-container-close-btn,.edit-container-close-btn{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: 2px solid black;
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+
+.close-btn-container{
+    text-align: right;
+    padding: 0 1rem;
+}
+
+.task-title,.task-description{
+    overflow-wrap: break-word;
+}
+
+
+
+.low-priority{
+    border: 1px solid green;
+}
+.medium-priority{
+    border: 1px solid yellow;
+}
+.high-priority{
+    border: 1px solid red;
+}
+
+.taskCompleted{
+    background-color: gray;
+    border: 2px solid lightgreen;
+}
+
+.taskCompleted-content{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+.display-block{
+    display: block;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-none{
+    display: none;
+}

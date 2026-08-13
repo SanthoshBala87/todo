@@ -1,0 +1,160 @@
+:root{
+    --primary-color: black;
+    --bg-color: white;
+}
+
+.hamburger-menu-icon-btn{
+    fill: var(--primary-color);
+}
+.profile p{
+    background-color: white;
+}
+
+.mode-type{
+    color: var(--primary-color);
+}
+
+.dashboard{
+    color: var(--primary-color);
+}
+.dashboard-details{
+    border: none;
+    background: rgba(9, 9, 9, 0.06);
+    backdrop-filter: blur(1rem);
+}
+
+.todo-task{
+    color: black;
+}
+
+.task-div{
+    border: 1px solid gray;
+    box-shadow: 0 0 3px 1px gray;
+}
+
+.task-description{
+    color:  var(--primary-color);
+}
+
+.mark-completed{
+    border: 2px solid var(--primary-color);
+}
+
+.category,.priority,.time{
+    color: var(--primary-color);
+}
+
+.edit-delete{
+    background-color: var(--bg-color);
+    box-shadow: 0 0 3px 1px gray;
+}
+
+.edit,.delete,.in-progress,.save{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    border: 1px solid gray;
+}
+
+.search-container,.filter-container,.sort-container,.view-old-tasks-container{
+    background-color: var(--bg-color);
+}
+
+.search-container ul,.filter-container ul,.sort-container ul,.view-old-tasks-container ul{
+    background-color: rgb(239, 237, 237);
+}
+
+#search-close-btn,#filter-close-btn,#sort-close-btn,#view-old-task-container-close-btn{
+    border: 2px solid var(--primary-color);
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+#filter-btn,#sort-btn,#view-old-task-btn{
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+#filter-priority,#filter-status,#filter-category,#sort-priority,#sort-title{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+}
+
+.confirm-message,.confirm-delete-message,.confirm-deleteall-message{
+    color: var(--primary-color);
+}
+
+#yes,#no,#confirmBtn,#dontBtn,#confirmallBtn,#dontallBtn{
+    border: 2px solid var(--primary-color);
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.username-container{
+    background-color: var(--bg-color);
+}
+
+.login-profile p{
+    background-color: var(--bg-color);
+}
+
+.get-name label{
+    color: var(--primary-color);
+}
+
+#userName{
+    border: 1px solid var(--primary-color);
+    outline: none;
+    padding: 4px;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.change-delete-profile-container{
+    background-color: var(--bg-color);
+}
+
+.set-name{
+    color: var(--primary-color);
+}
+
+/* Add Edit Tasks */
+.add-Task-Container,.edit-Task-Container{
+    background-color: var(--bg-color);
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+.form-group label{
+    color: var(--primary-color);
+}
+
+#add-task-title,#add-task-description,#add-task-priority,#add-task-category,#add-Task-button,#edit-task-title,#edit-task-description,#edit-task-priority,#edit-task-category,#edit-task-btn{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+/* Pop Up MEssage */
+.message-div{
+    background-color: var(--bg-color);
+    border: 2px solid var(--primary-color);
+}
+
+
+.message{
+    color: var(--primary-color);
+}
+
+/* Add Button */
+.main-add{
+    fill: var(--primary-color);
+}
+
+#addTaskBtn{
+    background-color: var(--bg-color);
+    border: 1px solid var(--primary-color);
+}

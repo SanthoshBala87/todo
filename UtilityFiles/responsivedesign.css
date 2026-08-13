@@ -1,0 +1,84 @@
+@media screen and (min-width: 375px){
+    .ham-menu-btn,.menu{
+        width: 2rem;
+        height: 2rem;
+    }
+    .profile p{
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.3rem;
+    }
+    .tasks-details{
+        gap: 8px 0;
+    }
+    .dashboard-details{
+        width: 110px;
+    }
+    .tasks h4{
+        font-size: 10px;
+    }
+    #filter-priority,#filter-status,#filter-category,#sort-priority,#sort-title{
+        width: 110px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 420px){
+    .tasks-details{
+        gap: 4px;
+    }
+    .dashboard-details{
+        width: 130px;
+    }
+    #filter-priority,#filter-status,#filter-category,#sort-priority,#sort-title{
+        width: 130px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .dashboard-details{
+        width: 150px;
+    }
+    .tasks h3{
+        font-size: 1.5rem;
+    }
+    #filter-priority,#filter-status,#filter-category,#sort-priority,#sort-title{
+        width: 130px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .tasks-details{
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 4px;
+        justify-items: center;
+    }
+    .dashboard-details{
+        width: 120px;
+    }
+    .tasks h4{
+        font-size: 12px;
+    }
+    #filter-priority,#filter-status,#filter-category,#sort-priority,#sort-title{
+        width: 130px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .dashboard-details{
+        width: 160px;
+    }
+    .tasks h4{
+        font-size: 14px;
+    }
+    #filter-priority,#filter-status,#filter-category,#sort-priority,#sort-title{
+        width: 130px;
+        font-size: 13px;
+    }
+}
